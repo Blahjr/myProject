@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Cars Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .car-info{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .car-info h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .content{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        padding: 30px;
+
+    }
+    .content h3{
+
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .price{
+        text-align: center;
+        padding: 30px;
+    }
+    .price .buy-now{
+        align-items: center;
+        text-align: center;
+        border: none;
+        background-color: green;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .buy-now a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+    .image img{
+        border-radius: 10px;
+    }
+    .content p{
+        margin-top: 150px;
+        font-size: 30px;
+        border: 1px solid #ddd;
+        padding: 30px;
+
+    }
+</style>
+<body>
+    <section id="navbar">
+        <header class="navbar">
+          <div class="logo">
+              <a href="#">Blah's Online Cars Shop</a>
+          </div>
+          <nav class="nav-links">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+          <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </header>
+      </section>
+       <div class="car-info">
+        <h2>2010 Volkwagen EOS Komfort</h2>
+        <div class="content">
+            <div class="image">
+                <img src="Images/2010 Volkwagen EOS Komfort.jpg" width="100%" alt="Toyota">
+            </div>
+        <div class="information">
+            <p>Volkswagen <br>
+                Model: Passat
+                Body Type: Wagon/Hatchback
+                Condition: Foreign Used
+                Year: 2014
+                Mileage: 85233 km
+                Color: Silver
+                Transmission: Automatic
+                Fuel: Diesel
+                Negotiable: no
+                Engine Capacity: 2.0</p>
+            <div class="price">
+                <h3>Price: 180,000 GHS</h3>
+            <button class="buy-now"><a href="payment.html">Buy Now</a></button>
+            </div>
+        </div>
+        </div>
+
+       </div>
+ 
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
