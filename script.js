@@ -11,4 +11,6 @@ hamburger.addEventListener('click', () => {
 document.getElementById('contact-form').addEventListener('submit', function(event){
     event.preventDefault();
     alert('Your Message has been sent!');
+
+    document.getElementById('contact-form').reset();
 });
